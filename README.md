@@ -34,7 +34,7 @@ https://www.cursoemvideo.com/curso/python-3-mundo-3/
 Este repositório tem como objetivo registrar minha evolução no aprendizado de Python e servir como referência para futuros projetos. Além disso, espero que ele possa inspirar outros iniciantes a começarem sua jornada na programação!
 
 ## Contribuição
-Se você encontrou algo interessante ou tem sugestões para melhorar os códigos, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Se você encontrou algo interessante ou tem sugestões para melhorar os códigos, sinta-se à vontade para entrar em contato.
 
 ## Contato
 Caso queira trocar ideias ou discutir sobre programação, entre em contato comigo:
