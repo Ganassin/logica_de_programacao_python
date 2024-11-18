@@ -25,9 +25,10 @@ Tratamento de erros: técnicas para identificar e corrigir falhas, tornando os c
 Consolidação: exercícios práticos que conectam teoria e aplicação, preparando para projetos reais.
 
 ## 🗂️ Estrutura do Repositório
-mundo_1/: Códigos e exercícios do curso "Python 3 – Mundo 1".
-mundo_2/: Códigos e exercícios do curso "Python 3 – Mundo 2".
-mundo_3/: Códigos e exercícios do curso "Python 3 – Mundo 3".
+pythonAulas/: Códigos das aulas de todos os cursos.
+mundo 1/: Exercícios do curso "Python 3 – Mundo 1".
+mundo 2/: Exercícios do curso "Python 3 – Mundo 2".
+mundo 3/: Exercícios do curso "Python 3 – Mundo 3".
 
 ## 🎯 Objetivo
 Este repositório tem como objetivo registrar minha evolução no aprendizado de Python e servir como referência para futuros projetos. Além disso, espero que ele possa inspirar outros iniciantes a começarem sua jornada na programação!
