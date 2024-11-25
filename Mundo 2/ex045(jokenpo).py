@@ -1,4 +1,7 @@
+# Exercício Python 45: Crie um programa que faça o computador jogar Jokenpô com você.
+
 import time, random # importação de bibliotecas para espera e sortear
+
 print('='*35,' JOKEMPO! ', '='*35)
 print('Escolha uma das opções abaixo:\n'
       '[0] Pedra\n'
