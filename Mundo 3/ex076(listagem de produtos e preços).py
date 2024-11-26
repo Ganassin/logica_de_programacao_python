@@ -1,3 +1,6 @@
+# Exercício Python 076: Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. 
+# No final, mostre uma listagem de preços, organizando os dados em forma tabular.
+
 listagem = ('Pão', 1.00, 'Leite', 3.50, 'Bolo', 17.25, 'Suco', 5.00, 'Pão de queijo', 1.50)
 
 print('-'*40)

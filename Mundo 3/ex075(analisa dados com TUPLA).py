@@ -1,3 +1,9 @@
+# Exercício Python 075: Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. 
+# No final, mostre:
+# A) Quantas vezes apareceu o valor 9.
+# B) Em que posição foi digitado o primeiro valor 3.
+# C) Quais foram os números pares.
+
 '''
 numeros = (int(input('Digite um valor de 1 a 10: ')),
            int(input('Digite outro valor de 1 a 10: ')),
