@@ -1,3 +1,6 @@
+# Exercício Python 54: Crie um programa que leia o ano de nascimento de sete pessoas. 
+# No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.
+
 # importação da biblioteca para pegar informações de data do sistema e criação da var com o ano atual
 from datetime import date
 ano_atual = date.today().year
