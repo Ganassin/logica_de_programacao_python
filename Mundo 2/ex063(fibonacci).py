@@ -1,3 +1,7 @@
+# Exercício Python 63: Escreva um programa que leia um número N inteiro qualquer e mostre na tela os N primeiros elementos de uma Sequência de Fibonacci. 
+# Exemplo:
+# 0 – 1 – 1 – 2 – 3 – 5 – 8
+
 '''Na matemática, os números de Fibonacci são uma sequência ou sucessão definida como recursiva pela fórmula:
                    F(n + 2) = F(n + 1) + F(n) , com n ≥ 1 e F(1) = F(2) = 1 .
    Os primeiros números de Fibonacci são:
