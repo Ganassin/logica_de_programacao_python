@@ -1,3 +1,8 @@
+# Exercício Python 087: Aprimore o desafio anterior, mostrando no final:                                                    
+# A) A soma de todos os valores pares digitados.    
+# B) A soma dos valores da terceira coluna.                                                                                                                
+# C) O maior valor da segunda linha.
+
 matriz = [[], [], []]
 for linha in range(0, 3):
     matriz[linha] = [int(input(f'Digite um valor {linha}x{cont}: ')) for cont in range(0, 3)]
