@@ -1,3 +1,7 @@
+# Exercício Python 68: Faça um programa que jogue par ou ímpar com o computador. 
+# O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
+
+
 from random import randint
 
 print('-='*30, '\nVamos jogar PAR ou ÍMPAR\n', '-='*30)
@@ -36,4 +40,4 @@ while True:
     if novo_jogo in 'Nn':
         break'''
 
-print('-='*30, f'\nGAME OVER! Você ganhou {cont} vezes!\n', '-='*30)
+print('-='*30, f'\nGAME OVER! Você ganhou {vitorias} vezes!\n', '-='*30)
