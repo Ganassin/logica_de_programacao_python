@@ -21,6 +21,4 @@ print(jogador)
 print(30*'=')
 print(f'O jogador {jogador["Nome"]} jogou {jogador["Qnt_partidas"]} partidas e marcou {jogador["Tot_gols"]} gols!')
 for partida, gols in enumerate(jogador['Gols']):
-    print(f'Gols na partida {partida+1}: {gols}')
-
-
+    print(f'  -> Gols na partida {partida+1}: {gols}')
