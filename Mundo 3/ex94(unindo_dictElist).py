@@ -67,9 +67,8 @@ print(f' - Há {len(mulheres)} mulheres cadastradas, sendo ela(s): {mulheres}')
 sleep(1)
 
 # Lista de pessoas com idade a cima da média
-qnt_idade_media = list()
 for p in pessoas:
     if p['idade'] > media_idade:
-        qnt_idade_media.append(p['nome'])
-
-print(f' - Há {len(qnt_idade_media)} pessoas com idade a cima da média, sendo ela(s) {qnt_idade_media}')
+        print(' - Lista de pessoas com idade a cima da média:')
+        for k, v in p.items():
+            print(f'   {k} = {v};', end='')
