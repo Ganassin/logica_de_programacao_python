@@ -34,11 +34,3 @@ for x in time:
     print(f'\n{x["Nome"]} marcou {x["Tot_gols"]} em {x["Qnt_partidas"]} partidas jogadas!')
     print(f'Seu aproveitamento foi de {round(x["Tot_gols"]/x["Qnt_partidas"], 2)} gols por partida!\n')
 
-'''print(30*'=')
-print(jogador)
-
-print(30*'=')
-print(f'O jogador {jogador["Nome"]} jogou {jogador["Qnt_partidas"]} partidas e marcou {jogador["Tot_gols"]} gols!')
-for partida, gols in enumerate(jogador['Gols']):
-    print(f'  -> Gols na partida {partida+1}: {gols}')
-'''
