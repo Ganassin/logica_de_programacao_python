@@ -1,8 +1,10 @@
+# Função
 def contador (i, f, p):
     for x in range(i, f, p):
         print(x, end=' ')
 
 
+# Código Principal
 print('\nContagem 1:')
 contador(1, 11, 1)
 
