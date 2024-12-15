@@ -12,6 +12,8 @@ Aula 20 - Funções (def) em Python
 
     No Python, existe a funcionalidade de "EMPACOTAR PARÂMETRO", para usar, na hora de declarar a função usamos um " * " seguido do nome
     da variável onde os parâmetros passados serão armazenados, que sera uma TUPLA. VEJA O EXEMPLO DA FUNÇÃO "somar_numeros" 
+    Ou caso precise usar uma lista, pode passar o nome da lista no campo dos parâmetros e chamar a função após a lista ter sido criada.
+    
     
 '''
 # FUNÇÕES: ==========================================================================================================================
