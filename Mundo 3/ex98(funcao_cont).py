@@ -2,6 +2,7 @@
 def contador (i, f, p):
     for x in range(i, f, p):
         print(x, end=' ')
+    print('FIM!')
 
 
 # Código Principal
