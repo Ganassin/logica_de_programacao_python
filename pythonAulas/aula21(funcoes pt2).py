@@ -83,3 +83,15 @@ def somar (a, b, c):
     return s
 
 print(somar(2, 4, 3))
+
+# ======================================================================================================================================================
+# Prática
+
+def fatorial (num=1): # define o default de num como 1
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+
+n = int(input('Digite um número: '))
+print(fatorial(n))
