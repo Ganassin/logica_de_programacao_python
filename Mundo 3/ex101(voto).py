@@ -3,6 +3,7 @@
 # retornando um valor literal indicando se uma pessoa tem voto 
 # NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
 
+# Função
 def voto (ano):
     from datetime import datetime
 
@@ -16,5 +17,6 @@ def voto (ano):
     else:
         return 'Negado!'
 
+# Programa principal
 ano = int(input('Ano de nascimento: '))
 print(f'A sua situação eleitoral é: {voto(ano)}')
