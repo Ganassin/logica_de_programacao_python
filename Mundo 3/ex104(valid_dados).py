@@ -7,6 +7,7 @@ def leiaInt():
         
         if var.isnumeric() == False:
             print('\033[0;31mErro! Digite um número inteiro válido!\033[m')
+            continue
         else: 
             return int(var)
             break
