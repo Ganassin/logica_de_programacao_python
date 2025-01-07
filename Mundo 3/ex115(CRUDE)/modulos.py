@@ -10,7 +10,7 @@ def menu():
 
     while True:
         try: 
-            opcao = leiaInt('Digite uma opção: ')
+            opcao = leiaOpcao('Digite uma opção: ')
         except (TypeError, ValueError):
             print('\033[0;31mOpção inválida!\033[m')
             continue
@@ -24,7 +24,25 @@ def menu():
 
 
 
-def leiaInt(msg):
+def leiaOpcao(msg=''):
+    while True:
+        # Com o TRY EXCEPT
+        try: 
+            var = int(input(f'{msg}'))
+        except (ValueError, TypeError):
+            print('\033[0;31mErro! Digite uma opção válida!\033[m')
+            continue
+        except (KeyboardInterrupt):
+            print('\033[0;31mEntrada de dados interrompida pelo usuário!\033[m')
+            return '#N/A'
+        else:
+            if var in (1, 2, 3):
+                return var
+                break
+            else:
+                print('\033[0;31mOpção inválida! Veja o menu!\033[m')
+
+def leiaInt(msg=''):
     while True:
         # Com o TRY EXCEPT
         try: 
@@ -36,8 +54,6 @@ def leiaInt(msg):
             print('\033[0;31mEntrada de dados interrompida pelo usuário!\033[m')
             return '#N/A'
         else:
-            if var in (1, 2, 3):
-                return var
-                break
-            else:
-                print('\033[0;31mOpção inválida! Veja o menu!\033[m')
+            return var
+            break
+            
