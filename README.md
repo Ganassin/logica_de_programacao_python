@@ -7,12 +7,14 @@ Os cursos "Python 3 – Mundo 1, 2 e 3" foram estruturados em módulos progressi
 
 ### Mundo 1 – Introdução à Programação com Python
 https://www.cursoemvideo.com/curso/python-3-mundo-1/
+https://drive.google.com/file/d/1fYgHoc0JLnF9Kz1R-Sk77kddhOmNJczX/view?usp=sharing
 * Conceitos básicos: primeiros passos na programação e introdução à linguagem Python.
 * Raciocínio lógico: desenvolvimento de habilidades para resolver problemas de forma estruturada.
 * Prática inicial: variáveis, tipos de dados, entrada e saída de informações.
 * Importância do Python: compreensão do impacto da linguagem no mercado e sua versatilidade para diversas áreas.
 ### Mundo 2 – Estruturas de Controle e Repetição
 https://www.cursoemvideo.com/curso/python-3-mundo-2/
+https://drive.google.com/file/d/16a0wZ_uCY_nkx8KrYU4Imwd2ItHzK1Si/view?usp=sharing
 * Estruturas condicionais: uso de if, else e elif para controle de fluxo.
 * Estruturas de repetição: criação de laços dinâmicos com for e while.
 * Boas práticas: como evitar erros comuns e escrever códigos mais eficientes.
